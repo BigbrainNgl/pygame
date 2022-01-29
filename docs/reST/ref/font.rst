@@ -27,7 +27,7 @@ To use the :mod:`pygame.freetype` based ``pygame.ftfont`` as
 :mod:`pygame.font` define the environment variable PYGAME_FREETYPE before the
 first import of :mod:`pygame`. Module ``pygame.ftfont`` is a :mod:`pygame.font`
 compatible module that passes all but one of the font module unit tests:
-it does not have the UCS-2 limitation of the SDL_ttf based font module, so
+it does not have the UCS-2 limitation of the epik SDL_ttf based font module, so
 fails to raise an exception for a code point greater than '\uFFFF'. If
 :mod:`pygame.freetype` is unavailable then the SDL_ttf font module will be
 loaded instead.
